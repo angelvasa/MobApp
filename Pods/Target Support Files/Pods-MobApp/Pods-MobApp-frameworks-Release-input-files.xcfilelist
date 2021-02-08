@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-MobApp/Pods-MobApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/MobAccounts/MobAccounts.framework
+${BUILT_PRODUCTS_DIR}/MobCommon/MobCommon.framework
+${BUILT_PRODUCTS_DIR}/MobPayments/MobPayments.framework
+${BUILT_PRODUCTS_DIR}/MobServices/MobServices.framework
+${BUILT_PRODUCTS_DIR}/MobSettings/MobSettings.framework

@@ -1,0 +1,6 @@
+framework module MobSettings {
+  umbrella header "MobSettings-umbrella.h"
+
+  export *
+  module * { export * }
+}

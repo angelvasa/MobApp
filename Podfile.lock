@@ -1,0 +1,34 @@
+PODS:
+  - MobAccounts (0.0.2):
+    - MobCommon (= 0.0.1)
+  - MobCommon (0.0.1)
+  - MobPayments (0.0.2):
+    - MobCommon (= 0.0.1)
+  - MobServices (0.0.2)
+  - MobSettings (0.0.2):
+    - MobCommon (= 0.0.1)
+
+DEPENDENCIES:
+  - MobAccounts (= 0.0.2)
+  - MobPayments (= 0.0.2)
+  - MobServices (= 0.0.2)
+  - MobSettings (= 0.0.2)
+
+SPEC REPOS:
+  https://github.com/angelvasa/MobSpecs.git:
+    - MobAccounts
+    - MobCommon
+    - MobPayments
+    - MobServices
+    - MobSettings
+
+SPEC CHECKSUMS:
+  MobAccounts: abb283d13cd7acd90eea8531f0dd83e9e123e880
+  MobCommon: 7d31a44fb31be6ab00e8bd32f5cab50b69b50dc1
+  MobPayments: 8ebc7a67bc02c4c58c40b4df669e103215b0106e
+  MobServices: 3bbc2ed6b937cfb411d7c13943760b6f739a7ca2
+  MobSettings: 4db094ad887f6bf8b7d2e809763d37a758aed154
+
+PODFILE CHECKSUM: 906a8de03e865c32af32edf49a5637d77b91183f
+
+COCOAPODS: 1.10.1

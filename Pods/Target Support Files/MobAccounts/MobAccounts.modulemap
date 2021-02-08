@@ -1,0 +1,6 @@
+framework module MobAccounts {
+  umbrella header "MobAccounts-umbrella.h"
+
+  export *
+  module * { export * }
+}

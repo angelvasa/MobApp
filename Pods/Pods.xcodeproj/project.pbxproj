@@ -1,0 +1,1454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		039EB27440CCA57012EBEF892981C5CE /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC50FD78432A01803779E0BCDB11B7DB /* Accounts.swift */; };
+		03AC18426B3B3C6BBF21B2F6A7DF7741 /* MobPayments.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE5D036F65DC60F96C1A0D0C6F66518 /* MobPayments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F214098CE98FFC21D953B4221A940F1 /* MobServices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0013A76F0344A4017702C1D7A59B9F2 /* MobServices-dummy.m */; };
+		0F6A9F5FD47000658D93BB2745AD08E0 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3F4431DED8BA1F0B21168C9A44EB7E /* AccountService.swift */; };
+		1F14BD9AFE3344272EF05E6690C0F37A /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97845445D1512C1264F293FAB5E849A6 /* LoginService.swift */; };
+		2150CB7CC0774E789670757155C32D24 /* MobPayments-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BA6C467D953F0AE2FDD0E1A516516F /* MobPayments-dummy.m */; };
+		228414FC2C2944828C6D2649D7D921DC /* MobServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 7675E6F8B9B2BA237EE7607A66147E43 /* MobServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25945FE5AB28462A3D44D939F632A5FE /* MobSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC3D359282EDE7C92A6CD58443100CC /* MobSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E0FADA495B856A2DEE678D19A2F21AD /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E12076CFF4A7F08521759C1437B126 /* AccountsView.swift */; };
+		2FF966ABDE18CE6EABA0F9ED7C95609F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C052C423B0C1B91F05319D7D5EF753 /* Foundation.framework */; };
+		341570EA665336E803AB16DB1C3353B9 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B20B546D970D4152A9447080C2E4705 /* Routable.swift */; };
+		344C05D8A72373CAFAA9E02A18370616 /* MobServices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB40970512B5B0EA12F2E9A92A4D972 /* MobServices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		401B9F4D9C9C39F8FEC104AC291688AA /* MobAccounts.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5AEF22F34F0E01C9B75DB693088404 /* MobAccounts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50512162674FAD403B8A907AC7D15966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C052C423B0C1B91F05319D7D5EF753 /* Foundation.framework */; };
+		5091A9CF28C48C6EC40B92869CC290A7 /* MobAccounts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 231D2211EE1D409053CB803E94F59CFC /* MobAccounts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54D9AD9A16509BB19D662CC91E32032F /* SettingsView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2BE197F112E3EB0CC3A0487B8CE97560 /* SettingsView.xib */; };
+		5564223B1F6E619F7B3F81968AAE553F /* MobCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBC45F864A4A5A84D53F337FE2B8023 /* MobCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C79E0D56B2F141446E4FB5ABE15A183 /* PaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5803C192DF312FCC1DBC9A56F95310 /* PaymentsView.swift */; };
+		5CCACBF523B43A2E3AEB25F50FECDE21 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D3D8FC9900992C340D72928C4C59F /* SettingsView.swift */; };
+		5FE53D035E17DA19DB96BAAB23A1E006 /* MobCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E6F4767D9CAE123D3DD0771857C503 /* MobCommon.framework */; };
+		62EF0B3F06372CC6EC8113AB79DCC37D /* MobCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E6F4767D9CAE123D3DD0771857C503 /* MobCommon.framework */; };
+		6D661F32B9657B36726B1451ECCF316C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C052C423B0C1B91F05319D7D5EF753 /* Foundation.framework */; };
+		6F7A4367755400B07971F5E30E969C64 /* MobCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A336261461F4C7A05B81B703F8A52B /* MobCommon-dummy.m */; };
+		7A7F4F63F33BEFA68F20AC791A3CEFD9 /* PaymentsView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 9BB2E3B9E45A4B90D43B6214534CF026 /* PaymentsView.xib */; };
+		7B1C2BDD7A8A34C7E95A67142D6BE36A /* MobSettings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1711AEBF6F3B732C526C986113D870C0 /* MobSettings-dummy.m */; };
+		824D3584A50EBAD57AF1DCBB2A0AB370 /* MobCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E6F4767D9CAE123D3DD0771857C503 /* MobCommon.framework */; };
+		87DB09E97A210B4D503098F343BA44AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C052C423B0C1B91F05319D7D5EF753 /* Foundation.framework */; };
+		88E0AC45D1A0B72F5EDDBBB7504226CE /* AccountsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5AF00B83B7DE23F5851F2E16C89BD /* AccountsDetailView.swift */; };
+		8C8931C36DC8FE8FF7A82F350938F26F /* MobPayments-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C79C55F09BD9364494B36864D38B2C6 /* MobPayments-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CC75B70D415DFFF126B45F4BD363543 /* MobAccounts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C66C1FD0537738B2CD1C048AB30B16 /* MobAccounts-dummy.m */; };
+		9102DE66DFD7A8F21C8D8A6E7FA1EDB9 /* Pods-MobApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6647629F408DA06615437658CAF394D5 /* Pods-MobApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95FE9CA2532B64034D05FCBCC588FB74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C052C423B0C1B91F05319D7D5EF753 /* Foundation.framework */; };
+		96BC43CC04F34DE06F8F8154390366A5 /* Pods-MobApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C568756D8C663374F2D72C05E308517 /* Pods-MobApp-dummy.m */; };
+		99D2B15ED218E9BEF5E8F9ECD1A38307 /* AccountsView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 60ABE2D8135735C495119A5DD752D40B /* AccountsView.xib */; };
+		AE51843DE4F8DBDEE54A0D0407746EDB /* MobSettings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E55D0D097F3052F0A887960FDE8DB48 /* MobSettings-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B66BFD8C8708FCB85B48CE9CCD6CB7CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C052C423B0C1B91F05319D7D5EF753 /* Foundation.framework */; };
+		B85C8E818603B6ACB9C8D8D3B9B54908 /* Payments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFF4D52C06D2F900A972B1C3ACD011F /* Payments.swift */; };
+		BA93CC9B639F9193F507A8CF08D68663 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4C740A1D7BB28AE72A221C2BE8F15F /* Settings.swift */; };
+		C1CE58B34DB6A235D49DD5B824C7C321 /* AccountsDetailView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 065EF46470BD270538706A00CE78D119 /* AccountsDetailView.xib */; };
+		E0347324661B2334E3F6DAA52478F5BA /* MobCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A88ED9EB5EADF1D7275765D4768BB5 /* MobCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30628B5F1AD9F4FD83FF2ECA27BA3BC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1E3C6BDBC82B220A9413416F7402146;
+			remoteInfo = MobServices;
+		};
+		483F227BCC01B58AC60C0CF5C5D46D44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3044A1A03C0D10360E12E788D0EB457;
+			remoteInfo = MobCommon;
+		};
+		49ED1F8D9C8D0F6563B65EFB53DF11FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3044A1A03C0D10360E12E788D0EB457;
+			remoteInfo = MobCommon;
+		};
+		51FB7BF411A1E2BAD366F9AD889D14A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3044A1A03C0D10360E12E788D0EB457;
+			remoteInfo = MobCommon;
+		};
+		88747B0784A5416B06375FF0142BB155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 478A0C585030245BB931E0EF5165B2DC;
+			remoteInfo = MobSettings;
+		};
+		C4272A235DCEDD73350E5978B80CE89F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 700CDFC457005C126237A5D4031449FB;
+			remoteInfo = MobPayments;
+		};
+		C8E19E9F11BFF79AABD172D19A615738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3044A1A03C0D10360E12E788D0EB457;
+			remoteInfo = MobCommon;
+		};
+		E5F033D886EB383560363D419DA60516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA3BC2FEEC332F22C75534CCC9F896F;
+			remoteInfo = MobAccounts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0050CB3A0AD4DA24EB358B39DB6C261E /* Pods-MobApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03E6F4767D9CAE123D3DD0771857C503 /* MobCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		065EF46470BD270538706A00CE78D119 /* AccountsDetailView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AccountsDetailView.xib; path = MobAccounts/Screens/AccountsDetailView.xib; sourceTree = "<group>"; };
+		0B02B6FC0834668F45C5873DA8C1EBF9 /* MobServices-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MobServices-Info.plist"; sourceTree = "<group>"; };
+		0BD2C93C52C92681D1B028AE6B094EEA /* MobAccounts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobAccounts.release.xcconfig; sourceTree = "<group>"; };
+		11C7411DD0C00C08A7B67C0B00E72E78 /* MobPayments-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MobPayments-Info.plist"; sourceTree = "<group>"; };
+		1225DA97C56829A1F91617901B3F42C2 /* MobPayments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobPayments.debug.xcconfig; sourceTree = "<group>"; };
+		1238E0A936726867F6C9FB6F6D4EA20F /* MobPayments.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MobPayments.modulemap; sourceTree = "<group>"; };
+		1711AEBF6F3B732C526C986113D870C0 /* MobSettings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MobSettings-dummy.m"; sourceTree = "<group>"; };
+		1E7472AA51CD0039A5533C33BB78D13B /* MobSettings-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobSettings-prefix.pch"; sourceTree = "<group>"; };
+		231D2211EE1D409053CB803E94F59CFC /* MobAccounts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobAccounts-umbrella.h"; sourceTree = "<group>"; };
+		26F5A5C2F79B47FAEFD6C8B34DC67A1F /* MobSettings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobSettings.release.xcconfig; sourceTree = "<group>"; };
+		2739EE003C56CAC8771C855D7324ACA3 /* MobCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobCommon-prefix.pch"; sourceTree = "<group>"; };
+		2BE197F112E3EB0CC3A0487B8CE97560 /* SettingsView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SettingsView.xib; path = MobSettings/Screens/SettingsView.xib; sourceTree = "<group>"; };
+		2EE5D036F65DC60F96C1A0D0C6F66518 /* MobPayments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobPayments.h; path = MobPayments/MobPayments.h; sourceTree = "<group>"; };
+		3603F735B26596D785C2B43940CD7722 /* Pods-MobApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobApp-frameworks.sh"; sourceTree = "<group>"; };
+		40A336261461F4C7A05B81B703F8A52B /* MobCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MobCommon-dummy.m"; sourceTree = "<group>"; };
+		40A88ED9EB5EADF1D7275765D4768BB5 /* MobCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobCommon-umbrella.h"; sourceTree = "<group>"; };
+		48C052C423B0C1B91F05319D7D5EF753 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		57E2DB7EAEE14FA9F4E4CF36361653B3 /* Pods-MobApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5C568756D8C663374F2D72C05E308517 /* Pods-MobApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MobApp-dummy.m"; sourceTree = "<group>"; };
+		5E06D2F5848E585854D1645F8C4772A0 /* MobSettings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MobSettings.framework; path = MobSettings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA4291F59580E419935AF267A2E19AE /* MobAccounts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobAccounts-prefix.pch"; sourceTree = "<group>"; };
+		5FD5AF00B83B7DE23F5851F2E16C89BD /* AccountsDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccountsDetailView.swift; path = MobAccounts/Screens/AccountsDetailView.swift; sourceTree = "<group>"; };
+		60ABE2D8135735C495119A5DD752D40B /* AccountsView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AccountsView.xib; path = MobAccounts/Screens/AccountsView.xib; sourceTree = "<group>"; };
+		6107B4E84274A06B87F65232CEB9B3B7 /* Pods-MobApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobApp-Info.plist"; sourceTree = "<group>"; };
+		6647629F408DA06615437658CAF394D5 /* Pods-MobApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobApp-umbrella.h"; sourceTree = "<group>"; };
+		66C390D743F7659D6C72DA3BC72EEBE9 /* MobCommon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MobCommon-Info.plist"; sourceTree = "<group>"; };
+		682CEB26192CBA8610F9B4B2D95CED66 /* MobAccounts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MobAccounts.modulemap; sourceTree = "<group>"; };
+		6A62A950A0C92478A313E4790B398A7E /* Pods-MobApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BCA971EC37DACC370586E76B9F9A5B7 /* MobServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobServices.debug.xcconfig; sourceTree = "<group>"; };
+		6E55D0D097F3052F0A887960FDE8DB48 /* MobSettings-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobSettings-umbrella.h"; sourceTree = "<group>"; };
+		6EE393345EAE794731C5814DEC774B4D /* MobCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobCommon.debug.xcconfig; sourceTree = "<group>"; };
+		6FC3D359282EDE7C92A6CD58443100CC /* MobSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobSettings.h; path = MobSettings/MobSettings.h; sourceTree = "<group>"; };
+		70BA6C467D953F0AE2FDD0E1A516516F /* MobPayments-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MobPayments-dummy.m"; sourceTree = "<group>"; };
+		7525E350B502C31C41501166100867AC /* MobAccounts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MobAccounts-Info.plist"; sourceTree = "<group>"; };
+		7675E6F8B9B2BA237EE7607A66147E43 /* MobServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobServices.h; path = MobServices/MobServices.h; sourceTree = "<group>"; };
+		785E28ECC1068267BDE5979F0B6D16B9 /* MobServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MobServices.framework; path = MobServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB52F51406138F51DF7B2A6780ABCD6 /* MobSettings-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MobSettings-Info.plist"; sourceTree = "<group>"; };
+		8B20B546D970D4152A9447080C2E4705 /* Routable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Routable.swift; path = MobCommon/Routable.swift; sourceTree = "<group>"; };
+		8C79C55F09BD9364494B36864D38B2C6 /* MobPayments-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobPayments-umbrella.h"; sourceTree = "<group>"; };
+		8CFF4D52C06D2F900A972B1C3ACD011F /* Payments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Payments.swift; path = MobPayments/Payments.swift; sourceTree = "<group>"; };
+		915F6E9E3482E2267A095B88828E5ED2 /* MobPayments-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobPayments-prefix.pch"; sourceTree = "<group>"; };
+		97845445D1512C1264F293FAB5E849A6 /* LoginService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginService.swift; path = MobServices/LoginService.swift; sourceTree = "<group>"; };
+		9987A52897618DEA646F3E8E27B81FEA /* MobSettings.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MobSettings.modulemap; sourceTree = "<group>"; };
+		9B4C740A1D7BB28AE72A221C2BE8F15F /* Settings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = MobSettings/Settings.swift; sourceTree = "<group>"; };
+		9BB2E3B9E45A4B90D43B6214534CF026 /* PaymentsView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PaymentsView.xib; path = MobPayments/Screens/PaymentsView.xib; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2FB19A032E42AF3D02BB29210EBC79 /* MobCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobCommon.release.xcconfig; sourceTree = "<group>"; };
+		9E5AEF22F34F0E01C9B75DB693088404 /* MobAccounts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobAccounts.h; path = MobAccounts/MobAccounts.h; sourceTree = "<group>"; };
+		9F3480674CEED37241712DC33754FECC /* MobServices.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MobServices.modulemap; sourceTree = "<group>"; };
+		AA3D3D8FC9900992C340D72928C4C59F /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = MobSettings/Screens/SettingsView.swift; sourceTree = "<group>"; };
+		AAA3149268DCCE30E53F3A397D2D55AE /* Pods_MobApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MobApp.framework; path = "Pods-MobApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3798EEA07F855B62FC887CCF555A60 /* MobAccounts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobAccounts.debug.xcconfig; sourceTree = "<group>"; };
+		AE56067C7859DEB55F91D42E8E008587 /* MobPayments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MobPayments.framework; path = MobPayments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1CE49C67BD63769737236B9757DF0F9 /* Pods-MobApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MobApp.modulemap"; sourceTree = "<group>"; };
+		B412E6BFFAAAF26B9A9D64EACDF27691 /* MobCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MobCommon.modulemap; sourceTree = "<group>"; };
+		C11F845A7443354BC0C04E7278BAFCDD /* Pods-MobApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobApp.release.xcconfig"; sourceTree = "<group>"; };
+		C2C66C1FD0537738B2CD1C048AB30B16 /* MobAccounts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MobAccounts-dummy.m"; sourceTree = "<group>"; };
+		CC3F4431DED8BA1F0B21168C9A44EB7E /* AccountService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccountService.swift; path = MobServices/AccountService.swift; sourceTree = "<group>"; };
+		CC50FD78432A01803779E0BCDB11B7DB /* Accounts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Accounts.swift; path = MobAccounts/Accounts.swift; sourceTree = "<group>"; };
+		CC5803C192DF312FCC1DBC9A56F95310 /* PaymentsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentsView.swift; path = MobPayments/Screens/PaymentsView.swift; sourceTree = "<group>"; };
+		CF6BECC0CE5742E595FE50FDDDBA63C3 /* MobSettings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobSettings.debug.xcconfig; sourceTree = "<group>"; };
+		D0013A76F0344A4017702C1D7A59B9F2 /* MobServices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MobServices-dummy.m"; sourceTree = "<group>"; };
+		D483F994EC51707D2FB01DC8B7951F68 /* MobAccounts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MobAccounts.framework; path = MobAccounts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D849B76836BF87AB49B7FEDCD8F91F8A /* MobServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobServices.release.xcconfig; sourceTree = "<group>"; };
+		DC4B45AD65FB346DB69D2527AC8A6B9D /* MobCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MobCommon.framework; path = MobCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB40970512B5B0EA12F2E9A92A4D972 /* MobServices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobServices-umbrella.h"; sourceTree = "<group>"; };
+		DFBC45F864A4A5A84D53F337FE2B8023 /* MobCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobCommon.h; path = MobCommon/MobCommon.h; sourceTree = "<group>"; };
+		E2BBCCCCD16B532E515B6DA5A730D857 /* MobServices-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobServices-prefix.pch"; sourceTree = "<group>"; };
+		F0E12076CFF4A7F08521759C1437B126 /* AccountsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccountsView.swift; path = MobAccounts/Screens/AccountsView.swift; sourceTree = "<group>"; };
+		FFF974BC58C0653703281497FB67FE9B /* MobPayments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobPayments.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1649E3CA008E2B11495598890AE7A709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50512162674FAD403B8A907AC7D15966 /* Foundation.framework in Frameworks */,
+				824D3584A50EBAD57AF1DCBB2A0AB370 /* MobCommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7636AE5FB01AC8F1F3E5C2AB52AE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FE9CA2532B64034D05FCBCC588FB74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247B6F568602610C79070829B534340B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DB09E97A210B4D503098F343BA44AF /* Foundation.framework in Frameworks */,
+				62EF0B3F06372CC6EC8113AB79DCC37D /* MobCommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FC720CD010067F584D3EAF635D64EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66BFD8C8708FCB85B48CE9CCD6CB7CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D30A262EDCDC0649FEBD8CC30823AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D661F32B9657B36726B1451ECCF316C /* Foundation.framework in Frameworks */,
+				5FE53D035E17DA19DB96BAAB23A1E006 /* MobCommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670BA6F5BFE934632B45C7FE779CEC39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF966ABDE18CE6EABA0F9ED7C95609F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E6E5FD7FAFFB7603DEF2C4594E7D79 /* MobSettings */ = {
+			isa = PBXGroup;
+			children = (
+				6FC3D359282EDE7C92A6CD58443100CC /* MobSettings.h */,
+				9B4C740A1D7BB28AE72A221C2BE8F15F /* Settings.swift */,
+				AA3D3D8FC9900992C340D72928C4C59F /* SettingsView.swift */,
+				2BE197F112E3EB0CC3A0487B8CE97560 /* SettingsView.xib */,
+				4D591D256527CB1664E831657731D708 /* Support Files */,
+			);
+			name = MobSettings;
+			path = MobSettings;
+			sourceTree = "<group>";
+		};
+		25328136F66F9310BA7FF4FB23A0C678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03E6F4767D9CAE123D3DD0771857C503 /* MobCommon.framework */,
+				B77687150888C52E54D50710BFFEABC9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3946EF4B054175AE6CFB51076FC3E6D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F3480674CEED37241712DC33754FECC /* MobServices.modulemap */,
+				D0013A76F0344A4017702C1D7A59B9F2 /* MobServices-dummy.m */,
+				0B02B6FC0834668F45C5873DA8C1EBF9 /* MobServices-Info.plist */,
+				E2BBCCCCD16B532E515B6DA5A730D857 /* MobServices-prefix.pch */,
+				DDB40970512B5B0EA12F2E9A92A4D972 /* MobServices-umbrella.h */,
+				6BCA971EC37DACC370586E76B9F9A5B7 /* MobServices.debug.xcconfig */,
+				D849B76836BF87AB49B7FEDCD8F91F8A /* MobServices.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MobServices";
+			sourceTree = "<group>";
+		};
+		4D591D256527CB1664E831657731D708 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9987A52897618DEA646F3E8E27B81FEA /* MobSettings.modulemap */,
+				1711AEBF6F3B732C526C986113D870C0 /* MobSettings-dummy.m */,
+				7EB52F51406138F51DF7B2A6780ABCD6 /* MobSettings-Info.plist */,
+				1E7472AA51CD0039A5533C33BB78D13B /* MobSettings-prefix.pch */,
+				6E55D0D097F3052F0A887960FDE8DB48 /* MobSettings-umbrella.h */,
+				CF6BECC0CE5742E595FE50FDDDBA63C3 /* MobSettings.debug.xcconfig */,
+				26F5A5C2F79B47FAEFD6C8B34DC67A1F /* MobSettings.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MobSettings";
+			sourceTree = "<group>";
+		};
+		5DA18F6A4377A4D2A38588FC2FD5C423 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				710AE5CEAE2175807047B5E0DFCB90B3 /* Pods-MobApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		645D3BB0E31DED93CBC60E7FF725F7CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				682CEB26192CBA8610F9B4B2D95CED66 /* MobAccounts.modulemap */,
+				C2C66C1FD0537738B2CD1C048AB30B16 /* MobAccounts-dummy.m */,
+				7525E350B502C31C41501166100867AC /* MobAccounts-Info.plist */,
+				5EA4291F59580E419935AF267A2E19AE /* MobAccounts-prefix.pch */,
+				231D2211EE1D409053CB803E94F59CFC /* MobAccounts-umbrella.h */,
+				AE3798EEA07F855B62FC887CCF555A60 /* MobAccounts.debug.xcconfig */,
+				0BD2C93C52C92681D1B028AE6B094EEA /* MobAccounts.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MobAccounts";
+			sourceTree = "<group>";
+		};
+		6AC75A32BA14681B65E46165D5BE7878 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1238E0A936726867F6C9FB6F6D4EA20F /* MobPayments.modulemap */,
+				70BA6C467D953F0AE2FDD0E1A516516F /* MobPayments-dummy.m */,
+				11C7411DD0C00C08A7B67C0B00E72E78 /* MobPayments-Info.plist */,
+				915F6E9E3482E2267A095B88828E5ED2 /* MobPayments-prefix.pch */,
+				8C79C55F09BD9364494B36864D38B2C6 /* MobPayments-umbrella.h */,
+				1225DA97C56829A1F91617901B3F42C2 /* MobPayments.debug.xcconfig */,
+				FFF974BC58C0653703281497FB67FE9B /* MobPayments.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MobPayments";
+			sourceTree = "<group>";
+		};
+		710AE5CEAE2175807047B5E0DFCB90B3 /* Pods-MobApp */ = {
+			isa = PBXGroup;
+			children = (
+				B1CE49C67BD63769737236B9757DF0F9 /* Pods-MobApp.modulemap */,
+				0050CB3A0AD4DA24EB358B39DB6C261E /* Pods-MobApp-acknowledgements.markdown */,
+				6A62A950A0C92478A313E4790B398A7E /* Pods-MobApp-acknowledgements.plist */,
+				5C568756D8C663374F2D72C05E308517 /* Pods-MobApp-dummy.m */,
+				3603F735B26596D785C2B43940CD7722 /* Pods-MobApp-frameworks.sh */,
+				6107B4E84274A06B87F65232CEB9B3B7 /* Pods-MobApp-Info.plist */,
+				6647629F408DA06615437658CAF394D5 /* Pods-MobApp-umbrella.h */,
+				57E2DB7EAEE14FA9F4E4CF36361653B3 /* Pods-MobApp.debug.xcconfig */,
+				C11F845A7443354BC0C04E7278BAFCDD /* Pods-MobApp.release.xcconfig */,
+			);
+			name = "Pods-MobApp";
+			path = "Target Support Files/Pods-MobApp";
+			sourceTree = "<group>";
+		};
+		9A436A32212E49F23290E6BB648162E3 /* MobServices */ = {
+			isa = PBXGroup;
+			children = (
+				CC3F4431DED8BA1F0B21168C9A44EB7E /* AccountService.swift */,
+				97845445D1512C1264F293FAB5E849A6 /* LoginService.swift */,
+				7675E6F8B9B2BA237EE7607A66147E43 /* MobServices.h */,
+				3946EF4B054175AE6CFB51076FC3E6D3 /* Support Files */,
+			);
+			name = MobServices;
+			path = MobServices;
+			sourceTree = "<group>";
+		};
+		B77687150888C52E54D50710BFFEABC9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				48C052C423B0C1B91F05319D7D5EF753 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BB8167FAA863679E73E09AE9EF5D492F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B412E6BFFAAAF26B9A9D64EACDF27691 /* MobCommon.modulemap */,
+				40A336261461F4C7A05B81B703F8A52B /* MobCommon-dummy.m */,
+				66C390D743F7659D6C72DA3BC72EEBE9 /* MobCommon-Info.plist */,
+				2739EE003C56CAC8771C855D7324ACA3 /* MobCommon-prefix.pch */,
+				40A88ED9EB5EADF1D7275765D4768BB5 /* MobCommon-umbrella.h */,
+				6EE393345EAE794731C5814DEC774B4D /* MobCommon.debug.xcconfig */,
+				9E2FB19A032E42AF3D02BB29210EBC79 /* MobCommon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MobCommon";
+			sourceTree = "<group>";
+		};
+		BBAD2F2214E3F29BE0E38E024B87C259 /* MobCommon */ = {
+			isa = PBXGroup;
+			children = (
+				DFBC45F864A4A5A84D53F337FE2B8023 /* MobCommon.h */,
+				8B20B546D970D4152A9447080C2E4705 /* Routable.swift */,
+				BB8167FAA863679E73E09AE9EF5D492F /* Support Files */,
+			);
+			name = MobCommon;
+			path = MobCommon;
+			sourceTree = "<group>";
+		};
+		BD4EEF5276C6E19CB053AE0968844E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D483F994EC51707D2FB01DC8B7951F68 /* MobAccounts.framework */,
+				DC4B45AD65FB346DB69D2527AC8A6B9D /* MobCommon.framework */,
+				AE56067C7859DEB55F91D42E8E008587 /* MobPayments.framework */,
+				785E28ECC1068267BDE5979F0B6D16B9 /* MobServices.framework */,
+				5E06D2F5848E585854D1645F8C4772A0 /* MobSettings.framework */,
+				AAA3149268DCCE30E53F3A397D2D55AE /* Pods_MobApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				25328136F66F9310BA7FF4FB23A0C678 /* Frameworks */,
+				ECD27C632AE28DF7AE0506893A656EDF /* Pods */,
+				BD4EEF5276C6E19CB053AE0968844E8C /* Products */,
+				5DA18F6A4377A4D2A38588FC2FD5C423 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E28B52FFE8A8FF4820DAC8A901EA511C /* MobPayments */ = {
+			isa = PBXGroup;
+			children = (
+				2EE5D036F65DC60F96C1A0D0C6F66518 /* MobPayments.h */,
+				8CFF4D52C06D2F900A972B1C3ACD011F /* Payments.swift */,
+				CC5803C192DF312FCC1DBC9A56F95310 /* PaymentsView.swift */,
+				9BB2E3B9E45A4B90D43B6214534CF026 /* PaymentsView.xib */,
+				6AC75A32BA14681B65E46165D5BE7878 /* Support Files */,
+			);
+			name = MobPayments;
+			path = MobPayments;
+			sourceTree = "<group>";
+		};
+		ECD27C632AE28DF7AE0506893A656EDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F33EF27C3D7F11EE329996063531D987 /* MobAccounts */,
+				BBAD2F2214E3F29BE0E38E024B87C259 /* MobCommon */,
+				E28B52FFE8A8FF4820DAC8A901EA511C /* MobPayments */,
+				9A436A32212E49F23290E6BB648162E3 /* MobServices */,
+				20E6E5FD7FAFFB7603DEF2C4594E7D79 /* MobSettings */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F33EF27C3D7F11EE329996063531D987 /* MobAccounts */ = {
+			isa = PBXGroup;
+			children = (
+				CC50FD78432A01803779E0BCDB11B7DB /* Accounts.swift */,
+				5FD5AF00B83B7DE23F5851F2E16C89BD /* AccountsDetailView.swift */,
+				065EF46470BD270538706A00CE78D119 /* AccountsDetailView.xib */,
+				F0E12076CFF4A7F08521759C1437B126 /* AccountsView.swift */,
+				60ABE2D8135735C495119A5DD752D40B /* AccountsView.xib */,
+				9E5AEF22F34F0E01C9B75DB693088404 /* MobAccounts.h */,
+				645D3BB0E31DED93CBC60E7FF725F7CF /* Support Files */,
+			);
+			name = MobAccounts;
+			path = MobAccounts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A36A130DDA402C717B360B3F916E46E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344C05D8A72373CAFAA9E02A18370616 /* MobServices-umbrella.h in Headers */,
+				228414FC2C2944828C6D2649D7D921DC /* MobServices.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8852F68C93D53713AC42F20727DE7DA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0347324661B2334E3F6DAA52478F5BA /* MobCommon-umbrella.h in Headers */,
+				5564223B1F6E619F7B3F81968AAE553F /* MobCommon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F77BB4F06AD06B71A8F69CB2E4DE2CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9102DE66DFD7A8F21C8D8A6E7FA1EDB9 /* Pods-MobApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB7DE802A2FFE4CDF82419991780581 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8931C36DC8FE8FF7A82F350938F26F /* MobPayments-umbrella.h in Headers */,
+				03AC18426B3B3C6BBF21B2F6A7DF7741 /* MobPayments.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A0784A67859B46E0B1BD0323CF8BA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5091A9CF28C48C6EC40B92869CC290A7 /* MobAccounts-umbrella.h in Headers */,
+				401B9F4D9C9C39F8FEC104AC291688AA /* MobAccounts.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF357EEF6772C2544EF8A33F42021FC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE51843DE4F8DBDEE54A0D0407746EDB /* MobSettings-umbrella.h in Headers */,
+				25945FE5AB28462A3D44D939F632A5FE /* MobSettings.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		390AA559DDD84D00ECC43E8C31801327 /* Pods-MobApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A545D6CB793A7BC19630D641A5AFA8 /* Build configuration list for PBXNativeTarget "Pods-MobApp" */;
+			buildPhases = (
+				8F77BB4F06AD06B71A8F69CB2E4DE2CA /* Headers */,
+				8DB2A9C188BDD1B7FAA1E2CD22D7801E /* Sources */,
+				45FC720CD010067F584D3EAF635D64EF /* Frameworks */,
+				050585A9AF52029A7363633F07718552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04F62D7C948A1F78C1C57EE05237574 /* PBXTargetDependency */,
+				3C691C769B0315D2B5300C6165E1CCD2 /* PBXTargetDependency */,
+				1216FD0B849072CB28AE3BE300E6E10A /* PBXTargetDependency */,
+				FD703078903ECAB15A735E6B63CBE457 /* PBXTargetDependency */,
+				7FE2F57A6A21CC8B4186BE3B2A685F39 /* PBXTargetDependency */,
+			);
+			name = "Pods-MobApp";
+			productName = "Pods-MobApp";
+			productReference = AAA3149268DCCE30E53F3A397D2D55AE /* Pods_MobApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		478A0C585030245BB931E0EF5165B2DC /* MobSettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041793BE2579AF86598C18F62BFE40E5 /* Build configuration list for PBXNativeTarget "MobSettings" */;
+			buildPhases = (
+				DF357EEF6772C2544EF8A33F42021FC4 /* Headers */,
+				391ADB9288370D9891201C656B2EF900 /* Sources */,
+				1649E3CA008E2B11495598890AE7A709 /* Frameworks */,
+				34A0679A735FAB83ADD15568F07FCA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83033CD8688DC381CC04BFB9CCF9790E /* PBXTargetDependency */,
+			);
+			name = MobSettings;
+			productName = MobSettings;
+			productReference = 5E06D2F5848E585854D1645F8C4772A0 /* MobSettings.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		700CDFC457005C126237A5D4031449FB /* MobPayments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5C04A017F7D04A5D4FA400671F6370 /* Build configuration list for PBXNativeTarget "MobPayments" */;
+			buildPhases = (
+				CCB7DE802A2FFE4CDF82419991780581 /* Headers */,
+				9459C670D6917A5C88301B00C1EAB9F5 /* Sources */,
+				247B6F568602610C79070829B534340B /* Frameworks */,
+				5D9642D831CF7FD5A5FBD621B8571815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				609BBFCDCECBB943398CD5C6365E8A4E /* PBXTargetDependency */,
+			);
+			name = MobPayments;
+			productName = MobPayments;
+			productReference = AE56067C7859DEB55F91D42E8E008587 /* MobPayments.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAA3BC2FEEC332F22C75534CCC9F896F /* MobAccounts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB134CDC1C2EB484CC3ED5864BCF7B81 /* Build configuration list for PBXNativeTarget "MobAccounts" */;
+			buildPhases = (
+				D8A0784A67859B46E0B1BD0323CF8BA3 /* Headers */,
+				D011BEDA91C57E1A2808126005C853B6 /* Sources */,
+				5D30A262EDCDC0649FEBD8CC30823AD9 /* Frameworks */,
+				A0ADA0E91456EC992A8BC70AD766A3DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1B26B2D3C1F66A095D9CAC7EF9F2298 /* PBXTargetDependency */,
+			);
+			name = MobAccounts;
+			productName = MobAccounts;
+			productReference = D483F994EC51707D2FB01DC8B7951F68 /* MobAccounts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3044A1A03C0D10360E12E788D0EB457 /* MobCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB907B688B64067F831D38DB60D15C6 /* Build configuration list for PBXNativeTarget "MobCommon" */;
+			buildPhases = (
+				8852F68C93D53713AC42F20727DE7DA1 /* Headers */,
+				FB2A94E920769F583FCFA51AC2919672 /* Sources */,
+				1A7636AE5FB01AC8F1F3E5C2AB52AE96 /* Frameworks */,
+				29CC147BE8C73CEB3CA1E362C4DB9799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobCommon;
+			productName = MobCommon;
+			productReference = DC4B45AD65FB346DB69D2527AC8A6B9D /* MobCommon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1E3C6BDBC82B220A9413416F7402146 /* MobServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44951FF6940F8D2C8283F14801B72D02 /* Build configuration list for PBXNativeTarget "MobServices" */;
+			buildPhases = (
+				3A36A130DDA402C717B360B3F916E46E /* Headers */,
+				2CF8DF233B4EFE1B8439DE1D9E1354D0 /* Sources */,
+				670BA6F5BFE934632B45C7FE779CEC39 /* Frameworks */,
+				244C8D8F350AE8965645EFE092EFF6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobServices;
+			productName = MobServices;
+			productReference = 785E28ECC1068267BDE5979F0B6D16B9 /* MobServices.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BD4EEF5276C6E19CB053AE0968844E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAA3BC2FEEC332F22C75534CCC9F896F /* MobAccounts */,
+				C3044A1A03C0D10360E12E788D0EB457 /* MobCommon */,
+				700CDFC457005C126237A5D4031449FB /* MobPayments */,
+				D1E3C6BDBC82B220A9413416F7402146 /* MobServices */,
+				478A0C585030245BB931E0EF5165B2DC /* MobSettings */,
+				390AA559DDD84D00ECC43E8C31801327 /* Pods-MobApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		050585A9AF52029A7363633F07718552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244C8D8F350AE8965645EFE092EFF6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29CC147BE8C73CEB3CA1E362C4DB9799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A0679A735FAB83ADD15568F07FCA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9642D831CF7FD5A5FBD621B8571815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0ADA0E91456EC992A8BC70AD766A3DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CF8DF233B4EFE1B8439DE1D9E1354D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6A9F5FD47000658D93BB2745AD08E0 /* AccountService.swift in Sources */,
+				1F14BD9AFE3344272EF05E6690C0F37A /* LoginService.swift in Sources */,
+				0F214098CE98FFC21D953B4221A940F1 /* MobServices-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391ADB9288370D9891201C656B2EF900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B1C2BDD7A8A34C7E95A67142D6BE36A /* MobSettings-dummy.m in Sources */,
+				BA93CC9B639F9193F507A8CF08D68663 /* Settings.swift in Sources */,
+				5CCACBF523B43A2E3AEB25F50FECDE21 /* SettingsView.swift in Sources */,
+				54D9AD9A16509BB19D662CC91E32032F /* SettingsView.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB2A9C188BDD1B7FAA1E2CD22D7801E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BC43CC04F34DE06F8F8154390366A5 /* Pods-MobApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9459C670D6917A5C88301B00C1EAB9F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2150CB7CC0774E789670757155C32D24 /* MobPayments-dummy.m in Sources */,
+				B85C8E818603B6ACB9C8D8D3B9B54908 /* Payments.swift in Sources */,
+				5C79E0D56B2F141446E4FB5ABE15A183 /* PaymentsView.swift in Sources */,
+				7A7F4F63F33BEFA68F20AC791A3CEFD9 /* PaymentsView.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D011BEDA91C57E1A2808126005C853B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039EB27440CCA57012EBEF892981C5CE /* Accounts.swift in Sources */,
+				88E0AC45D1A0B72F5EDDBBB7504226CE /* AccountsDetailView.swift in Sources */,
+				C1CE58B34DB6A235D49DD5B824C7C321 /* AccountsDetailView.xib in Sources */,
+				2E0FADA495B856A2DEE678D19A2F21AD /* AccountsView.swift in Sources */,
+				99D2B15ED218E9BEF5E8F9ECD1A38307 /* AccountsView.xib in Sources */,
+				8CC75B70D415DFFF126B45F4BD363543 /* MobAccounts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2A94E920769F583FCFA51AC2919672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7A4367755400B07971F5E30E969C64 /* MobCommon-dummy.m in Sources */,
+				341570EA665336E803AB16DB1C3353B9 /* Routable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1216FD0B849072CB28AE3BE300E6E10A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MobPayments;
+			target = 700CDFC457005C126237A5D4031449FB /* MobPayments */;
+			targetProxy = C4272A235DCEDD73350E5978B80CE89F /* PBXContainerItemProxy */;
+		};
+		3C691C769B0315D2B5300C6165E1CCD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MobCommon;
+			target = C3044A1A03C0D10360E12E788D0EB457 /* MobCommon */;
+			targetProxy = 51FB7BF411A1E2BAD366F9AD889D14A0 /* PBXContainerItemProxy */;
+		};
+		609BBFCDCECBB943398CD5C6365E8A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MobCommon;
+			target = C3044A1A03C0D10360E12E788D0EB457 /* MobCommon */;
+			targetProxy = 49ED1F8D9C8D0F6563B65EFB53DF11FA /* PBXContainerItemProxy */;
+		};
+		7FE2F57A6A21CC8B4186BE3B2A685F39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MobSettings;
+			target = 478A0C585030245BB931E0EF5165B2DC /* MobSettings */;
+			targetProxy = 88747B0784A5416B06375FF0142BB155 /* PBXContainerItemProxy */;
+		};
+		83033CD8688DC381CC04BFB9CCF9790E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MobCommon;
+			target = C3044A1A03C0D10360E12E788D0EB457 /* MobCommon */;
+			targetProxy = 483F227BCC01B58AC60C0CF5C5D46D44 /* PBXContainerItemProxy */;
+		};
+		B04F62D7C948A1F78C1C57EE05237574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MobAccounts;
+			target = BAA3BC2FEEC332F22C75534CCC9F896F /* MobAccounts */;
+			targetProxy = E5F033D886EB383560363D419DA60516 /* PBXContainerItemProxy */;
+		};
+		F1B26B2D3C1F66A095D9CAC7EF9F2298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MobCommon;
+			target = C3044A1A03C0D10360E12E788D0EB457 /* MobCommon */;
+			targetProxy = C8E19E9F11BFF79AABD172D19A615738 /* PBXContainerItemProxy */;
+		};
+		FD703078903ECAB15A735E6B63CBE457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MobServices;
+			target = D1E3C6BDBC82B220A9413416F7402146 /* MobServices */;
+			targetProxy = 30628B5F1AD9F4FD83FF2ECA27BA3BC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16C8A82F309E2570913C989ABF4D8981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF6BECC0CE5742E595FE50FDDDBA63C3 /* MobSettings.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobSettings/MobSettings-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobSettings/MobSettings-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MobSettings/MobSettings.modulemap";
+				PRODUCT_MODULE_NAME = MobSettings;
+				PRODUCT_NAME = MobSettings;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26CE9C9DB0D963E235BE38DAC147D360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BCA971EC37DACC370586E76B9F9A5B7 /* MobServices.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobServices/MobServices-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobServices/MobServices-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MobServices/MobServices.modulemap";
+				PRODUCT_MODULE_NAME = MobServices;
+				PRODUCT_NAME = MobServices;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2FCCC94C6F1D7A13BA5E7C9174D90B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD2C93C52C92681D1B028AE6B094EEA /* MobAccounts.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobAccounts/MobAccounts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobAccounts/MobAccounts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MobAccounts/MobAccounts.modulemap";
+				PRODUCT_MODULE_NAME = MobAccounts;
+				PRODUCT_NAME = MobAccounts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48C733425F71A83D37E184E55DB50DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F5A5C2F79B47FAEFD6C8B34DC67A1F /* MobSettings.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobSettings/MobSettings-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobSettings/MobSettings-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MobSettings/MobSettings.modulemap";
+				PRODUCT_MODULE_NAME = MobSettings;
+				PRODUCT_NAME = MobSettings;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4954B4CE88561796D9829EBEAA5E23B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2FB19A032E42AF3D02BB29210EBC79 /* MobCommon.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobCommon/MobCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobCommon/MobCommon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MobCommon/MobCommon.modulemap";
+				PRODUCT_MODULE_NAME = MobCommon;
+				PRODUCT_NAME = MobCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F4E1BA07054B048254253E6439FEBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3798EEA07F855B62FC887CCF555A60 /* MobAccounts.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobAccounts/MobAccounts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobAccounts/MobAccounts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MobAccounts/MobAccounts.modulemap";
+				PRODUCT_MODULE_NAME = MobAccounts;
+				PRODUCT_NAME = MobAccounts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D4841774E6AF792A21515B538E0AFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE393345EAE794731C5814DEC774B4D /* MobCommon.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobCommon/MobCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobCommon/MobCommon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MobCommon/MobCommon.modulemap";
+				PRODUCT_MODULE_NAME = MobCommon;
+				PRODUCT_NAME = MobCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		72308D0420A806DBEFB5B220E34F77C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1225DA97C56829A1F91617901B3F42C2 /* MobPayments.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobPayments/MobPayments-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobPayments/MobPayments-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MobPayments/MobPayments.modulemap";
+				PRODUCT_MODULE_NAME = MobPayments;
+				PRODUCT_NAME = MobPayments;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74387248341B98B2A2C8278F320406AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11F845A7443354BC0C04E7278BAFCDD /* Pods-MobApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobApp/Pods-MobApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobApp/Pods-MobApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEDA826B4051EF8E70CD658465D8799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF974BC58C0653703281497FB67FE9B /* MobPayments.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobPayments/MobPayments-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobPayments/MobPayments-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MobPayments/MobPayments.modulemap";
+				PRODUCT_MODULE_NAME = MobPayments;
+				PRODUCT_NAME = MobPayments;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAC3A51953366FE34F8DA0EB644BC685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57E2DB7EAEE14FA9F4E4CF36361653B3 /* Pods-MobApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobApp/Pods-MobApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobApp/Pods-MobApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB8B4B429C95E19163A659CC6185F291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D849B76836BF87AB49B7FEDCD8F91F8A /* MobServices.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobServices/MobServices-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobServices/MobServices-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MobServices/MobServices.modulemap";
+				PRODUCT_MODULE_NAME = MobServices;
+				PRODUCT_NAME = MobServices;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041793BE2579AF86598C18F62BFE40E5 /* Build configuration list for PBXNativeTarget "MobSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C8A82F309E2570913C989ABF4D8981 /* Debug */,
+				48C733425F71A83D37E184E55DB50DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A545D6CB793A7BC19630D641A5AFA8 /* Build configuration list for PBXNativeTarget "Pods-MobApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC3A51953366FE34F8DA0EB644BC685 /* Debug */,
+				74387248341B98B2A2C8278F320406AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44951FF6940F8D2C8283F14801B72D02 /* Build configuration list for PBXNativeTarget "MobServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CE9C9DB0D963E235BE38DAC147D360 /* Debug */,
+				FB8B4B429C95E19163A659CC6185F291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5C04A017F7D04A5D4FA400671F6370 /* Build configuration list for PBXNativeTarget "MobPayments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72308D0420A806DBEFB5B220E34F77C9 /* Debug */,
+				BEDA826B4051EF8E70CD658465D8799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB134CDC1C2EB484CC3ED5864BCF7B81 /* Build configuration list for PBXNativeTarget "MobAccounts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4E1BA07054B048254253E6439FEBCF /* Debug */,
+				2FCCC94C6F1D7A13BA5E7C9174D90B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB907B688B64067F831D38DB60D15C6 /* Build configuration list for PBXNativeTarget "MobCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4841774E6AF792A21515B538E0AFFD /* Debug */,
+				4954B4CE88561796D9829EBEAA5E23B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
