@@ -5,7 +5,7 @@ This project is only the integrator of all the features of the app.
 ![MobApp](https://github.com/angelvasa/MobApp/blob/main/mobapp.gif)
 
 
-Features Repos:
+# Features Repos
 -   Accounts (https://github.com/angelvasa/MobAccounts)
 -   Payments (https://github.com/angelvasa/MobPayments)
 -   Settings (https://github.com/angelvasa/MobSettings)
